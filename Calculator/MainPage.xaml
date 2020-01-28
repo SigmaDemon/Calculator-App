@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Calculator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White" Width="762" Height="732">
+
+    <Grid Background="Red">
+        <TextBox x:Name="Calculations_Box" HorizontalAlignment="Left" Margin="43,43,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="124" Width="675" SelectionHighlightColor="#FF2887D5" Background="LightBlue"/>
+        <Button Content="1" Margin="43,192,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button1" Background="Blue" FocusVisualPrimaryBrush="White"/>
+        <Button Content="2" Margin="203,192,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button2" Background="Blue"/>
+        <Button Content="3" Margin="366,192,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button3" Background="Blue"/>
+        <Button Content="/" Margin="572,192,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button_Divide" Background="Yellow"/>
+        <Button Content="4" Margin="43,292,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button4" Background="Blue"/>
+        <Button Content="5" Margin="203,292,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button5" Background="Blue"/>
+        <Button Content="6" Margin="366,292,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button6" Background="Blue"/>
+        <Button Content="*" Margin="572,292,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button_Multiply" Background="Yellow"/>
+        <Button Content="7" Margin="43,392,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button7" Background="Blue"/>
+        <Button Content="8" Margin="203,392,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button8" Background="Blue"/>
+        <Button Content="9" Margin="365,392,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button9" Background="Blue"/>
+        <Button Content="+" Margin="572,392,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button_Plus" Background="Yellow"/>
+        <Button Content="C" Margin="43,492,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button_Clear" Background="Yellow"/>
+        <Button Content="0" Margin="203,492,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button0" Background="Blue"/>
+        <Button Content="." Margin="365,492,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button_Dot" Background="Yellow"/>
+        <Button Content="-" Margin="572,492,0,0" VerticalAlignment="Top" Height="95" Width="146" Click="Button_Minus" Background="Yellow"/>
+        <Button Content="=" Margin="44,609,0,0" VerticalAlignment="Top" Height="95" Width="675" Click="Button_Equals" Background="Blue"/>
+
+    </Grid>
+</Page>

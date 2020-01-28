@@ -1,0 +1,1 @@
+C:\Users\sebas\Desktop\Self-Developed C# Projects\Calculator\Calculator\Calculator.csproj;x86
